@@ -27,3 +27,12 @@ body{
     margin-left: auto;
     padding: 30px;
 }
+.home a{
+    display: flex;
+    align-items: center;
+}
+.home p{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}
