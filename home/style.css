@@ -3,3 +3,27 @@
    padding: 0;
    box-sizing: border-box;
 }
+body{
+    background-color: #D2B48C;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-color: #5a6f46ad;
+    gap: 70px;
+}
+.header h1{
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    padding: 30px;
+}
