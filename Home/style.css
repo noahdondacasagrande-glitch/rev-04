@@ -47,8 +47,48 @@ nav {
     background-attachment: fixed;
     height: 100vh;
     box-shadow: 0px 3px 12px #00000085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.wrap-divs{
+    padding: 20px;
+}
+.title-div{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    padding: 50px;
+    text-shadow: 2px 3px 10px black;
+}
+.wrap-btns{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.wrap-btns button{
+    padding: 8px 20px 8px;
+    border-radius: 8px;
+    border: none;
+    border: 2px solid;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px 10px black;
+    opacity: 0.7;
+    transition: all 400ms ease-in-out;
+}
+.wrap-btns button:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px white;
+    border: 2px solid #51daf3;    
+    color: #51daf3;
+    transform: scale(1.1);
 
+
+}
 .s2 {
     height: 100vh;
 }
